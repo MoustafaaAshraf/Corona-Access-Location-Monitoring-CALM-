@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PassTester
+comment0.text=\r\n\ PassTester\ is\ a\ class\ designed\ to\ test\ Pass\ class\r\n\r\n\ @author\ Moustafa\ Mahmoud\r\n\ @version\ 8/1/2021\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

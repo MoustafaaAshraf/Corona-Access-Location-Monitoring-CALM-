@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Researcher
+comment0.text=\r\n\ A\ class\ inherited\ from\ Pass\ class\r\n\ Represents\ a\ pass\ which\ belongs\ to\ a\ researcher\ working\ at\ a\ given\ site\r\n\ A\ Pass\ of\ a\ reasercher\ has\ an\ id\ number,\ name,\ a\ protection\ rating\ \r\n\ and\ number\ of\ hours,\ code\ of\ the\ project,\ name\ of\ the\ project.\r\n\ @param\ id\ -\ The\ ID\ number\ of\ certain\ pass\ holder\r\n\ @param\ protection_rating\ as\ an\ integer\r\n\ @param\ The\ protection\ rating\ allowed\ for\ certain\ danger\ rooms\ as\ an\ integer\r\n\ @param\ The\ allowable\ hours\ of\ working\ of\ the\ pass\ within\ the\ site\ as\ an\ integer\r\n\ @param\ The\ hours\ left\ for\ this\ pass\ in\ the\ site\ as\ an\ integer\r\n\ @param\ The\ name\ of\ the\ project\ team\ as\ a\ String\r\n\ @param\ The\ number\ of\ the\ project\ team\ as\ an\ Integer\r\n\ \r\n\ @author\ Moustafa\ Mahmoud\r\n\ @version\ 10/1/2021\r\n
+comment1.params=ID\ Protection_rating\ Allowable_hours\ Code_of_project_team\ Name_of_project_team
+comment1.target=Researcher(int,\ int,\ int,\ int,\ java.lang.String)
+comment1.text=Initializes\ new\ instance/object\ of\ class\ Researcher\ which\ is\ a\ subclass\ of\ Pass\r\n\ \r\n\ @param\ ID\ -\ The\ number\ of\ the\ id\ of\ the\ created\ pass\r\n\ @param\ Protection_rating\ -\ The\ level\ of\ protection\ that\ the\ pass\ allowed\ to\ acces,\ ranges\ from\ 1\ to\ 10s\r\n\ @param\ Allowable_hours\ -\ The\ number\ of\ hours\ allowed\ for\ a\ certain\ pass\ in\ the\ site\r\n\ @param\ Name_of_project_team\ -\ The\ name\ of\ the\ project\ team\ of\ a\ given\ assistance\ which\ is\ the\ pass\ holder,\ in\ the\ form\ of\ String\r\n\ @param\ Code_of_project_team\ -\ The\ numerical\ representation\ of\ the\ project\ team\ that\ a\ given\ researcher\ belongs\ to,\ as\ an\ Integer\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=Accesses\ the\ string\ representaion\ of\ a\ certain\ Researcher\ pass\r\n\ @return\ a\ string\ representation\ of\ the\ Researcher\ object\ as\ a\ String\r\n
+comment3.params=
+comment3.target=java.lang.String\ getProjectTeamName()
+comment3.text=Accesses\ the\ string\ representaion\ of\ a\ name\ of\ the\ team\ that\ the\ researcher\ belongs\ to\r\n\ @return\ a\ string\ representation\ of\ the\ name\ of\ the\ team\ that\ the\ researcher\ belongs\ to\r\n
+numComments=4

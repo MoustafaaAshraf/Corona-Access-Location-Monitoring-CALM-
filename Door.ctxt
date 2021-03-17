@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Door
+comment0.text=\r\n\ A\ door\ provides\ a\ one-way\ connection\ between\ two\ rooms.\ It\r\n\ has\ a\ Door\ number\ and\ information\ about\ both\ the\ "from"\ and\r\n\ the\ "to"\ room\r\n\ \r\n\ @author\ Moustafa\ Mahmoud\ \r\n\ @version\ 8/1/2021\r\n
+comment1.params=Door_number\ From_room\ To_room
+comment1.target=Door(int,\ Room,\ Room)
+comment1.text=Initializes\ new\ instance/object\ of\ class\ Door\r\n\ All\ door\ are\ one\ way\ for\ social\ distancing\r\n\ @param\ Door_number\ -\ the\ number\ of\ the\ door\ created\r\n\ @param\ From_room\ -\ an\ object\ of\ type\ Room,\ which\ indicates\ the\ room\ the\ person\ coming\ from\r\n\ @param\ To_room\ -\ an\ object\ of\ type\ Room,\ which\ indicates\ the\ room\ the\ person\ going\ to\r\n
+comment2.params=pass
+comment2.target=void\ move(Pass)
+comment2.text=Moves\ a\ pass\ requesting\ to\ move\ by\ Door.\r\n\ A\ move\ will\ be\ successful\ if\:\ \ \r\n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\r\n\ AND\ the\ destination\ room\ is\ not\ full\r\n\ AND\ the\ pass\ has\ sufficient\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\r\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\r\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\r\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\r\n\ If\ the\ move\ can\ be\ made,\ the\ pass\ information\ is\ removed\ from\ the\ source\r\n\ room,\ added\ to\ the\ destination\ room.\r\n\ If\ move\ cannot\ be\ made,\ the\ state\ of\ the\ system\ remains\ unchanged\r\n\ @param\ pass\ which\ is\ an\ object\ of\ type\ Pass,\ which\ is\ the\ pass\ trying\ to\ move\ from\ a\ room\ to\ another\r\n
+comment3.params=pass
+comment3.target=boolean\ is_pass_allowed(Pass)
+comment3.text=Returns\ true\ if\ a\ Pass\ is\ allowed\ to\ move\ using\ the\ door,\ false\ otherwise\r\n\ A\ move\ can\ be\ made\ if\:\ \ \r\n\ the\ protection\ rating\ of\ the\ pass\ \ >\=\ the\ danger\ rating\ of\ the\ destination\ room\r\n\ AND\ the\ destination\ room\ is\ not\ full\r\n\ AND\ the\ pass\ has\ hours\ left\ >\=\ limit\ of\ the\ destination\ room\r\n\ AND\ the\ pass\ is\ currently\ in\ the\ source\ room\r\n\ AND\ the\ pass\ id\ is\ for\ a\ pass\ in\ the\ system\r\n\ AND\ the\ door\ number\ is\ the\ number\ for\ a\ door\ in\ the\ system\r\n\ @param\ and\ object\ if\ type\ Pass,\ which\ is\ the\ pass\ requesting\ the\ move\r\n\ @return\ true\ if\ the\ pass\ is\ allowed\ in\ the\ move,\ false\ otherwise\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=Accesses\ the\ string\ representaion\ of\ a\ certain\ Door\r\n\ @return\ a\ string\ representation\ of\ the\ Door\ as\ a\ String\r\n
+numComments=5
